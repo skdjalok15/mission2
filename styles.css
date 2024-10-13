@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #fff; /* Light theme background */
+    color: #000; /* Light theme text color */
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+h2 {
+    margin: 10px 0;
+    color: #006EB6; /* Default blue color for subtitle in light theme */
+}
+
+/* Dark theme styles */
+.dark {
+    background-color: #333; /* Dark background */
+    color: white; /* White text */
+}
+
+.dark h2 {
+    color: #A8D8EA; /* Lighter blue for subtitle in dark theme */
+}
+
+.dark #logo {
+    content: url('byui-logo-white.png'); /* Placeholder for white logo */
+}
+
+footer img {
+    max-width: 100%; /* Ensure logo fits well */
+}
